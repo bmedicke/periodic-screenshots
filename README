@@ -1,0 +1,3 @@
+It's a simple bash script that periodically takes screenshots. I use it to create time-lapse videos of projects. 
+Either use chmod +x to make it executable or put it in an Automator application. 
+You can use Time Lapse Assembler (mac) to create videos from the screenshots.

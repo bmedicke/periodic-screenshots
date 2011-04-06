@@ -1,0 +1,24 @@
+root=~/Documents/timelapse/ # where to put the subfolders with the screenshots.
+filetype=png # png, jpg, tiff and other formats.
+delay=10 # how long to wait between screenshots.
+
+if [ ! -d $root ]
+	then
+	mkdir -p $root
+fi
+
+cd $root
+
+while true
+do
+ 	file=$(date +%Y\-%m\-%d\_%H.%M.%S)
+	folder=$(date +%Y\/%m\/%d)
+
+	if [ ! -d $folder ]
+		then
+		mkdir -p $folder
+	fi
+
+	screencapture -t $filetype -x $folder/$file.$filetype
+	sleep $delay
+done

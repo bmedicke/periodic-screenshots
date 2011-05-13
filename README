@@ -1,3 +1,5 @@
 It's a simple bash script that periodically takes screenshots. I use it to create time-lapse videos of projects. 
 Either use chmod +x to make it executable or put it in an Automator application. 
 You can use Time Lapse Assembler (mac) to create videos from the screenshots.
+
+Here's an example time-lapse of one of my projects: http://benjy.multimediatechnology.at/blog/2010/06/18/making-of-quantum-jumpnrun/

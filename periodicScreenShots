@@ -1,3 +1,4 @@
+#!/bin/bash
 root=~/Documents/timelapse/ # where to put the subfolders with the screenshots.
 filetype=png # png, jpg, tiff and other formats.
 delay=10 # how long to wait between screenshots.
